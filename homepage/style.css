@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(/assets/upscalemedia-transformed.jpeg);
+    background-image: url(./assets/upscalemedia-transformed.jpeg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
