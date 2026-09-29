@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Goldman", sans-serif; */
+}
+
+body {
+    background-image: url(/assets/upscalemedia-transformed.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+/* HEAD */
+.navbar {
+    font-family: "Open San", sans-serif;
+    color: white;
+    display: flex;
+    gap: 26em;
+    margin-top: 1em;
+    flex-wrap: wrap; 
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .8em;
+    /* justify-content: space-between; */
+    margin-left: 1.5em;
+}
+
+.eosai-logo-icon {
+    font-size: 1.5em;
+    letter-spacing: .2em;
+}
+
+.logo {
+    width: 2em;
+}
+
+.nav-pages {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    list-style: none;
+    font-size: .7em;
+    margin-top: 1em;
+    letter-spacing: .1em;
+    color: rgb(247, 246, 244);
+}
+
+.material-symbols-outlined {
+    transform: translateY(-8px);
+}
+
+/* Main */
+
+.hero {
+    color: white;
+    margin: 3em;
+}
+
+.hero-text {
+    font-size: 3.5em;
+    width: 7em;
+
+    span {
+        color: #e3c069;
+    }
+
+    font-family: Arial;
+}
+
+.underline {
+    width: 5em;
+    height: 1px;
+    margin: 1.5em 0 1.5em 0;
+    color: red;
+}
+
+.what-we-do {
+    font-size: .8em;
+    font-family: sans-serif;
+    width: 16em;
+    color: rgba(255, 255, 255, 0.683);
+    /* letter-spacing: .1em; */
+    line-height: 1.5em;
+}
+
+.view {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.right-arrow {
+    border-radius: 100em;
+    border: 1px solid #e8cb7f;
+    width: 2.5em;
+    height: 2.5em;
+    text-align: center;
+}
+
+.arrow {
+    text-align: center;
+    margin-top: .6em;
+    color: #e8cb7f;
+}
+
+.view-text {
+    font-family: "Open San", sans-serif;
+    font-weight: normal;
+    margin-top: .6em;
+}
+
+/* Footer */
+footer {
+.line {
+    margin: 2em 3.5em;
+
+    hr {
+
+        width: 2em;
+        transform: rotate(90deg);
+    }
+}
+
+    [class="footer"] {
+        display: flex;
+        flex-direction: row;
+        color: #ffffff85;
+        font-size: .6em;
+        margin-left: 5.5em;
+        font-family: "Open San", sans-serif;
+    }
+  
+}
