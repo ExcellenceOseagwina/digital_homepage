@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./assets/image2.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    font-size: .8em;
+    background-color: white;
+    width: 44%;
+    margin: 2em auto 0 auto;
+    border-radius: 1.5em;
+    padding: .5em;
+    color: rgba(0, 0, 0, 0.829);
+    box-shadow: 0 0 1px 0px #141313a2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+
+    h1 {
+        font-size: 1em;
+    }
+
+    transform: translateY(.7px);
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    margin-top: .4em;
+    color: rgba(2, 2, 2, 0.701);
+    transform: translateY(3px);
+
+    .login-btn {
+        background-color: black;
+        color: white;
+        text-align: center;
+        width: 4em;
+        border-radius: 20px;
+        cursor: pointer;
+        padding: .5em;
+        transform: translateY(-5px);
+    }
+}
+
+/* Hero */
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    margin-top: 4em;
+}
+
+.raise {
+    background-color: #ffffffc5;
+    border-radius: 20px;
+    padding: .4em;
+    font-size: .7em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+.hero {
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+.hero-text {
+    color: rgba(0, 0, 0, 0.621);
+    font-size: .9em;
+    text-align: center;
+    width: 30%;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.btn {
+    font-size: .6em;
+    padding: .7em;
+    border-radius: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.742);
+}
+
+.get-start {
+    background-color: white;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.4);
+    /* filter: blur(.4px); */
+    background: blur(100px);
+    color: white;
+    font-size:.8em;
+    text-align: center;
+    width: 5em;
+    padding: .4em;
+    border-radius: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.276);
+    margin: 10em auto 0 auto;
+
+}
